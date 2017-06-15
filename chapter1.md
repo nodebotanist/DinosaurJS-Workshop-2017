@@ -16,5 +16,5 @@ Place your Pi in the clear case, but don't put the lid on it -- we need access t
 
 Plug one end of your ribbon cable into the Pin Expander \(the T-shaped thing with a bunch of pins on it\), and the other end onto the GPIO pins an the Raspberry Pi
 
-
+\(photos\)
 
