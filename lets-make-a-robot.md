@@ -57,7 +57,7 @@ const board = new five.Board({
 })
 
 board.on('ready', () => {
-  let led = new five.Led('P1-17')
+  let led = new five.Led('P1-19')
   led.strobe()
   let strobing = true
 
