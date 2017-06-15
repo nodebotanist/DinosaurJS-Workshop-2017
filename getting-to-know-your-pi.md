@@ -159,5 +159,5 @@ sudo npm i -g npm
 
 This will install node 7.x and update npm to 5.x \(you'll thank me later\)
 
-Now, NOW we can code.
+Now, NOW we can code. Kiiiiinda. We gotta wire up some lights first! But **soon.**
 

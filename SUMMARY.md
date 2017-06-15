@@ -6,4 +6,5 @@
   * [About the Instructor](about-the-instructor.md)
 * [Setup](chapter1.md)
 * [Getting to know your Pi](getting-to-know-your-pi.md)
+* Let's make a robot!
 
