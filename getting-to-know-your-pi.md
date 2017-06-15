@@ -115,7 +115,7 @@ This means you're connected to the internet!
 
 Code time? Not Quite. First we have to install Node \(actual good node\) and update the OS.
 
-First, we'll switch to SSH to connect to our Pi instead of our cable. 
+First, we'll switch to SSH to connect to our Pi instead of our cable.
 
 ### 4. Switching to an SSH connection
 
@@ -129,5 +129,35 @@ hopefully, it'll ask you for your password, and then you'll be logged in via SSH
 
 Now for some standard maintenance...
 
+### 5. Updating the OS
 
+Run the following commands on your Pi
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
+
+The first should complete really quickly, the second...go stretch your legs, grab a drink of water, take your time -- average 5 minutes.
+
+### 6. Getting Node \(that's not 0.10.x\)
+
+NodeSource hosts Debian packages that allow us to use Node 7.x instead of being stuck on 0.10.x
+
+To get it, run the following on the Pi:
+
+```
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+```
+
+Once it's done:
+
+```
+sudo apt install nodejs
+sudo npm i -g npm
+```
+
+This will install node 7.x and update npm to 5.x \(you'll thank me later\)
+
+Now, NOW we can code.
 
