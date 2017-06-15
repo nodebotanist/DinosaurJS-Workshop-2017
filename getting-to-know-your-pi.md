@@ -30,3 +30,35 @@ Follow [these installation instructions from Adafruit](https://learn.adafruit.co
 
 Then, follow [these connection instructions from Adafruit](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/test-and-configure#windows)
 
+### 2. Logging in
+
+You should now see a prompt for a login and password
+
+The default username is pi and the default password is raspberry
+
+#### 2a. Change the Password
+
+We're going to connect this to the internet for ssh shortly. So we're going to change our password.
+
+run the command:
+
+```
+passwd
+```
+
+and follow the prompts to change your password to something else
+
+#### 2b. Allow SSH, Boot to CLI
+
+Run the following
+
+```
+sudo raspi-config
+```
+
+And under boot options, select Console, then under Interfacing Options, select SSH and Yes to enable
+
+When you hit finish at tho main menu, hit yes.
+
+Once rebooted, log back in with your new password.
+
