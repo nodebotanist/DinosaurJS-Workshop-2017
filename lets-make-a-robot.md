@@ -57,10 +57,10 @@ const board = new five.Board({
 })
 
 board.on('ready', () => {
-  let led = new five.Led('P1-71')
+  let led = new five.Led('P1-17')
   led.strobe()
   let strobing = true
-  
+
   let button = five.Button('P1-11')
   button.on('press', () => {
     strobing ? led.stop().off() : led.strobe()
@@ -68,6 +68,8 @@ board.on('ready', () => {
   })
 });
 ```
+
+#### 4b. Stop for a quick dance party because omg you just built a robot!
 
 
 
