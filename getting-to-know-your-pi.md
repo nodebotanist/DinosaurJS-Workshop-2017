@@ -62,3 +62,72 @@ When you hit finish at tho main menu, hit yes.
 
 Once rebooted, log back in with your new password.
 
+### 3. Connect to the WiFi
+
+First, run
+
+```
+ifconfig
+```
+
+And make sure a wlan0 entry is in the list.
+
+We're going to use nano \(you can use whichever cli editor you know if you want\) to set up our WiFi connection.
+
+to open the config file, run
+
+```
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+```
+
+you'll see a basic text editor
+
+\(photo\)
+
+at the end of this file \(use arrow keys to navigate, and spaces instead of tabs, add:
+
+```
+network={
+    ssid="Our SSID"
+    psk="Our Password"
+}
+```
+
+hit control-x, then y, then enter to save and exit
+
+Then, reboot with
+
+```
+sudo reboot
+```
+
+and re-run
+
+```
+ifconfig
+```
+
+after logging in. You should see an IP address in your wlan0 entry:
+
+\(photo\)
+
+This means you're connected to the internet!
+
+Code time? Not Quite. First we have to install Node \(actual good node\) and update the OS.
+
+First, we'll switch to SSH to connect to our Pi instead of our cable. 
+
+### 4. Switching to an SSH connection
+
+Jot down your Raspi's IP address, and then open a terminal on your computer and run
+
+```
+ssh pi@your.ip.address
+```
+
+hopefully, it'll ask you for your password, and then you'll be logged in via SSH! You can remove the Serial-TTL cable and close Serial/Putty/screen.
+
+Now for some standard maintenance...
+
+
+
