@@ -4,6 +4,6 @@
   * [Prerequisites](prerequisites.md)
   * [Schedule](schedule.md)
   * [About the Instructor](about-the-instructor.md)
-* [0. Setup](chapter1.md)
-* 1. Getting to Know Your Pi
+* [Setup](chapter1.md)
+* [Getting to know your Pi](getting-to-know-your-pi.md)
 
