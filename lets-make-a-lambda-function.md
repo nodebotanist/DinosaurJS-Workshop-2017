@@ -12,9 +12,11 @@ Then follow these instructions for setting up AWS Lambda:
 
 [https://serverless.com/framework/docs/providers/aws/guide/quick-start/](https://serverless.com/framework/docs/providers/aws/guide/quick-start/)
 
+Then, we'll create a sub-folder in code for our lambda:
 
-
-
+```
+mkdir ~/code/lambda/ && cd ~/code/lambda
+```
 
 
 
