@@ -10,5 +10,5 @@ the@nodebotani.st
 
 @nodebotanist on Twitter, Github, wherever!
 
-
+All the sample code from today is included [here](https://github.com/nodebotanist/DinosaurJS-Workshop-2017-Code)
 
