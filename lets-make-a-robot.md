@@ -27,7 +27,7 @@ Then we're going to wire an LED and push button to our Pi
 Let's create a folder on our pi for code:
 
 ```
-mkdir code && cd code
+mkdir ~/code && mkdir ~/code/bot && cd ~/code/bot
 ```
 
 Then, we're going to install johnny-five and raspi-io so we can start coding!
