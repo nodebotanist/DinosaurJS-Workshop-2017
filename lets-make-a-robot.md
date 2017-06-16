@@ -71,5 +71,28 @@ board.on('ready', () => {
 
 #### 4b. Stop for a quick dance party because omg you just built a robot!
 
+### 5. Using the REPL \(Read, Eval, Print Loop\)
 
+add the following after the close of your button.on\(\) call:
+
+```
+this.repl.inject({
+    button,
+    led
+})
+```
+
+This allows you to access the LED and the button from the command line once your code is run-- run your code and wait for the prompt. While the LED is strobing, type in
+
+```
+led.stop.off()
+```
+
+then try
+
+```
+led.on()
+```
+
+This tool is super useful for debugging more complex johnny-five programs, so keep it in mind when writing your own projects!
 
