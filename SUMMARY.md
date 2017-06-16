@@ -8,4 +8,5 @@
 * [Getting to know your Pi](getting-to-know-your-pi.md)
 * [Let's make a robot!](lets-make-a-robot.md)
 * [Let's Make a Lambda Function!](lets-make-a-lambda-function.md)
+* [Let's create our IoT device!](lets-create-our-iot-device.md)
 
